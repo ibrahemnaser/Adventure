@@ -4,11 +4,16 @@
 .faq .questions {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-  row-gap: 15px;
+  gap: 15px;
 }
 @media (max-width: 768px) {
   .faq .questions {
     grid-template-columns: repeat(auto-fill, minmax(322px, 1fr));
+  }
+}
+@media (max-width: 425px) {
+  .faq .questions {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   }
 }
 .faq .questions h4 {

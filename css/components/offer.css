@@ -6,6 +6,11 @@
   align-items: center;
   row-gap: 50px;
 }
+@media (max-width: 425px) {
+  .offer .sec-content {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+}
 .offer .sec-content .single-offer {
   display: flex;
   flex-direction: column;
