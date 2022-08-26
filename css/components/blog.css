@@ -1,0 +1,36 @@
+.blog {
+  padding: 50px 0;
+}
+.blog > div {
+  text-align: center;
+}
+.blog .blog-box {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 35px;
+  max-width: 1000px;
+  text-align: start;
+}
+.blog .blog-box .news-card {
+  background-color: #256d85;
+
+  border-radius: 5px;
+}
+.blog .blog-box .news-card img {
+  border-radius: 5px;
+}
+.blog .blog-box .news-card h2 {
+  padding: 10px;
+}
+.blog .blog-box .news-card p {
+  padding: 10px;
+}
+.blog .blog-box .news-card > span {
+  padding: 0 10px;
+  margin-bottom: 5px;
+  display: inline-block;
+  opacity: 0.5;
+}
+.blog button {
+  margin-top: 50px;
+}
