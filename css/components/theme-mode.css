@@ -1,0 +1,36 @@
+.theme-mode {
+  position: fixed;
+  top: 35%;
+  perspective: 1000px;
+  transform: rotate3d(1, 0, 0, 21deg);
+  width: 30px;
+  height: 30px;
+  background-color: var(--item-color);
+  cursor: pointer;
+}
+.theme-mode .inner-theme-card {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transition: all 0.3s;
+}
+.theme-mode.toggle-mode .inner-theme-card {
+  transform: rotateX(182deg);
+}
+.theme-mode span {
+  position: absolute;
+  display: inline-block;
+  background-color: var(--item-color);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.theme-mode span i {
+  color: var(--bg-color);
+}
+.theme-mode span.dark {
+  transform: translate(-50%, -50%) rotateX(180deg);
+}
+.theme-mode.toggle-mode span.light {
+  visibility: hidden;
+}

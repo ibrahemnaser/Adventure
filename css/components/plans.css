@@ -1,0 +1,135 @@
+.plans {
+  padding-top: 50px;
+  margin-top: 100px;
+}
+.plans .sec-plans {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  justify-items: center;
+  align-items: center;
+  row-gap: 50px;
+}
+
+.plans .sec-plans .single-plan {
+  background-color: #256d85;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  opacity: 0.8;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.plans .sec-plans .single-plan.set-opacity {
+  opacity: 1;
+  transform: scale(1.1);
+}
+.plans .sec-plans .single-plan h3 {
+  font-size: 1.8rem;
+  padding-top: 20px;
+  margin-bottom: 15px;
+}
+.plans .sec-plans .single-plan p {
+  color: var(--primary);
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+.plans .sec-plans .single-plan span {
+  opacity: 0.8;
+}
+.plans .sec-plans .single-plan ul {
+  margin: 15px 0;
+}
+.plans .sec-plans .single-plan ul li {
+  margin-bottom: 15px;
+}
+.plans .sec-plans .single-plan button {
+  font-size: 0.9rem;
+  letter-spacing: 0;
+  padding: 5px 15px;
+}
+/* Description */
+.plans .sec-plan-desc {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+}
+@media (max-width: 768px) {
+  .plans .sec-plan-desc {
+    flex-direction: column;
+    row-gap: 1.2rem;
+  }
+}
+.plans .sec-plan-desc > div {
+  flex-basis: 45%;
+}
+@media (max-width: 768px) {
+  .plans .sec-plan-desc > div {
+    flex-basis: 100%;
+    width: 100%;
+  }
+}
+.plans .sec-plan-desc .desc-content h4 {
+  font-size: 1.8rem;
+  margin-bottom: 12px;
+}
+.plans .sec-plan-desc .desc-content p {
+  opacity: 0.8;
+}
+.plans .sec-plan-desc .desc-list {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+@media (max-width: 992px) {
+  .plans .sec-plan-desc .desc-list {
+    flex-direction: column;
+    padding: 0 20px;
+  }
+}
+.plans .sec-plan-desc .desc-list ul li {
+  margin-bottom: 8px;
+  opacity: 0.8;
+  position: relative;
+}
+.plans .sec-plan-desc .desc-list ul li::before {
+  position: absolute;
+  font-family: "FontAwesome";
+  content: "\f1ce";
+  left: -22px; /* RTL */
+  color: var(--primary);
+}
+/* Try */
+.plans hr {
+  margin-top: 50px;
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 1px;
+  background-image: linear-gradient(to left, var(--primary), var(--item-color));
+}
+.plans .try-plan {
+  margin: 50px 0;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.plans .try-plan .try-head {
+  text-align: center;
+}
+.plans .try-plan .try-head h2 {
+  margin-bottom: 1.5rem;
+}
+.plans .try-plan .try-head p {
+  max-width: 700px;
+  margin: 0 auto;
+}
+.plans .try-plan button {
+  margin-top: 50px;
+  font-size: 0.8rem;
+  padding: 8px 10px;
+  width: fit-content;
+}

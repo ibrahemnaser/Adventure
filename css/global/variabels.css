@@ -1,0 +1,17 @@
+/* == Variables == */
+:root {
+  --primary: #1de9b6;
+  --bg-color: black;
+  --item-color: white;
+}
+:root.light-mode {
+  --bg-color: white;
+  --item-color: black;
+}
+
+/* 
+====
++ color theory => start with one primary color (the main)
++ background-color => always black or white (dark mode)
+====
+*/

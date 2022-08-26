@@ -1,0 +1,14 @@
+section.color-switcher {
+  right: -120px; /* RTL */
+}
+section.color-switcher.show {
+  right: 0; /* RTL */
+}
+/* plans */
+.plans .sec-plan-desc .desc-list ul li::before {
+  position: absolute;
+  font-family: "FontAwesome";
+  content: "\f1ce";
+  right: -22px; /* RTL */
+  color: var(--primary);
+}

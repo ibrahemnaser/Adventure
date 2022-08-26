@@ -1,0 +1,46 @@
+section.color-switcher {
+  position: fixed;
+  top: 50%;
+  left: -120px; /* RTL */
+  transform: translateY(-50%);
+  display: flex;
+  align-items: flex-start;
+  transition: all 0.3s;
+  width: fit-content;
+  z-index: 999;
+}
+section.color-switcher.show {
+  left: 0; /* RTL */
+}
+section.color-switcher .colors-sec {
+  padding: 10px 20px;
+  background-color: var(--item-color);
+  min-width: 120px;
+}
+section.color-switcher .colors-sec h3 {
+  color: var(--bg-color);
+  margin-bottom: 15px;
+}
+section.color-switcher .colors-sec .colors {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+section.color-switcher .colors-sec .colors > div {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+section.color-switcher .gear {
+  background-color: var(--item-color);
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section.color-switcher .gear i {
+  color: var(--bg-color);
+}
