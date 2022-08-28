@@ -12,9 +12,13 @@ export function switchColor() {
 }
 
 export function setPrimaryColor() {
+  const storageColor = localStorage.getItem("primaryColor");
+  document.querySelector(":root").style.setProperty("--primary", storageColor);
+
   colorsBellete.forEach((ele) => {
     ele.addEventListener("click", () => {
       const color = ele.getAttribute("data-color");
+      localStorage.setItem("primaryColor", color);
       document.querySelector(":root").style.setProperty("--primary", color);
     });
   });
