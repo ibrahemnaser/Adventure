@@ -70,3 +70,20 @@ body {
     font-size: 1rem;
   }
 }
+/* == Arrow Up == */
+.arrow-up {
+  background-color: var(--item-color);
+  position: fixed;
+  bottom: 50px;
+  right: 30px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.arrow-up i {
+  color: var(--primary);
+}
