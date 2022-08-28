@@ -21,424 +21,430 @@
     <script type="module" defer src="js/main.js"></script>
   </head>
   <body>
+    <!-- == Start Loader == -->
+    <div id="loader"></div>
+    <!-- == End Loader == -->
+
     <!-- == Start Header == -->
+    <div id="page" class="page">
+      <header>
+        <!-- == Nav == -->
+        <nav class="container">
+          <div class="logo">
+            <span>Adventure</span>
+          </div>
+          <div class="links">
+            <ul>
+              <li><a href="#" class="active">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="language">
+            <span>
+              <a href="index-rtl.html">عربي</a>
+            </span>
+          </div>
+          <div class="toggler">
+            <span></span>
+          </div>
+        </nav>
 
-    <header>
-      <!-- == Nav == -->
-      <nav class="container">
-        <div class="logo">
-          <span>Adventure</span>
-        </div>
-        <div class="links">
-          <ul>
-            <li><a href="#" class="active">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </div>
-        <div class="language">
-          <span>
-            <a href="index-rtl.html">عربي</a>
-          </span>
-        </div>
-        <div class="toggler">
-          <span></span>
-        </div>
-      </nav>
+        <!-- == Featured Slide == -->
+        <section class="featured-slide">
+          <div class="container">
+            <h1>
+              Quickly Build Landing Pages With
+              <span style="color: var(--primary)">Adventure</span>
+            </h1>
+            <p>
+              Adventure is a platform that helps freelancers and companies build
+              beautiful landing pages in minutes. Sign up for free.
+            </p>
+            <button class="main-btn">Get Started</button>
+          </div>
+        </section>
+      </header>
 
-      <!-- == Featured Slide == -->
-      <section class="featured-slide">
+      <!-- == End Header == -->
+
+      <!-- == Start Offer == -->
+
+      <section class="offer">
         <div class="container">
-          <h1>
-            Quickly Build Landing Pages With
-            <span style="color: var(--primary)">Adventure</span>
-          </h1>
-          <p>
-            Adventure is a platform that helps freelancers and companies build
-            beautiful landing pages in minutes. Sign up for free.
-          </p>
-          <button class="main-btn">Get Started</button>
+          <div class="sec-head">
+            <h2>
+              Adventure offers everything you
+              <span style="color: var(--primary)">need.</span>
+            </h2>
+            <p>Check our offers, and pick what matches your need now.</p>
+          </div>
+          <div class="sec-content">
+            <div class="single-offer">
+              <i class="fa-solid fa-marker"></i>
+              <h3>Create once. Share everywhere.</h3>
+              <p>Increase your network with our products.</p>
+            </div>
+            <div class="single-offer">
+              <i class="fa-solid fa-display"></i>
+              <h3>Unlimited devices</h3>
+              <p>Our products are fully responsive with all screens.</p>
+            </div>
+            <div class="single-offer">
+              <i class="fa-solid fa-table-list"></i>
+              <h3>Beautiful templates & layouts</h3>
+              <p>UI/UX principles are considered when creating our products.</p>
+            </div>
+            <div class="single-offer">
+              <i class="fa-solid fa-globe"></i>
+              <h3>Available globally</h3>
+              <p>Reach your customers all over the world right now.</p>
+            </div>
+          </div>
+          <div class="offer-carousel">
+            <div class="carousel-content">
+              <h3>Adventure is more than just a page builder.</h3>
+              <p>Share with us your success to improve our world.</p>
+              <button class="main-btn">Share Now</button>
+            </div>
+
+            <div class="carousel-img-box">
+              <div class="dots">
+                <span data-active></span>
+                <span></span>
+                <span></span>
+              </div>
+              <div class="carousel-img" data-active>
+                <img src="images/blog-1.jpg" alt="carousel image one" />
+              </div>
+              <div class="carousel-img">
+                <img src="images/blog-2.jpg" alt="carousel image two" />
+              </div>
+              <div class="carousel-img">
+                <img src="images/blog-3.jpg" alt="carousel image three" />
+              </div>
+            </div>
+          </div>
         </div>
       </section>
-    </header>
 
-    <!-- == End Header == -->
+      <!-- == End Offer == -->
 
-    <!-- == Start Offer == -->
+      <!-- == Start Plans -->
 
-    <section class="offer">
-      <div class="container">
-        <div class="sec-head">
-          <h2>
-            Adventure offers everything you
-            <span style="color: var(--primary)">need.</span>
-          </h2>
-          <p>Check our offers, and pick what matches your need now.</p>
+      <section class="plans">
+        <div class="container">
+          <div class="sec-head">
+            <h2>Choose your pricing plan.</h2>
+            <p>Simply pricing - 7 Days free trial</p>
+          </div>
+          <div class="sec-plans">
+            <div class="single-plan">
+              <h3>Personal</h3>
+              <p>$59</p>
+              <span>per month</span>
+              <ul>
+                <li>1 user</li>
+                <li>10 websites</li>
+                <li>Access to premium template</li>
+                <li>Basic support</li>
+              </ul>
+              <button class="main-btn">Start Free Trial</button>
+            </div>
+            <div class="single-plan set-opacity">
+              <h3>Agency</h3>
+              <p>$159</p>
+              <span>per month</span>
+              <ul>
+                <li>2-15 users</li>
+                <li>50 websites</li>
+                <li>Access to premium template</li>
+                <li>Priority support</li>
+              </ul>
+              <button class="main-btn">Start Free Trial</button>
+            </div>
+            <div class="single-plan">
+              <h3>Enterprise</h3>
+              <p>$559</p>
+              <span>per month</span>
+              <ul>
+                <li>Unlimited users</li>
+                <li>Unlimited websites</li>
+                <li>Access to premium template</li>
+                <li>24/7 support</li>
+              </ul>
+              <button class="main-btn">Start Free Trial</button>
+            </div>
+          </div>
+          <div class="sec-plan-desc">
+            <div class="desc-content">
+              <h4>Everything is covered</h4>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Ducimus, quia. Fugiat, deleniti? Eligendi, labore!
+              </p>
+            </div>
+            <div class="desc-list">
+              <ul class="first-list">
+                <li>Weekly new templates</li>
+                <li>MailChimp integration</li>
+                <li>100 refund guarantee</li>
+                <li>Free unlimited support</li>
+              </ul>
+              <ul class="second-list">
+                <li>Access to new features</li>
+                <li>Stripe integration</li>
+                <li>Advance SEO tools</li>
+              </ul>
+            </div>
+          </div>
+          <hr />
+          <div class="try-plan">
+            <div class="try-head">
+              <h2>Try Adventure free for 7 days</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Vestibulum in nisi commodo, tempus odio a, vestibulum nibh.
+              </p>
+            </div>
+            <button class="main-btn">CREATE YOUR ACCOUNT</button>
+          </div>
         </div>
-        <div class="sec-content">
-          <div class="single-offer">
-            <i class="fa-solid fa-marker"></i>
-            <h3>Create once. Share everywhere.</h3>
-            <p>Increase your network with our products.</p>
+      </section>
+
+      <!-- == End Plans -->
+
+      <!-- == Start FAQ == -->
+
+      <section class="faq">
+        <div class="container">
+          <div class="sec-head">
+            <h2>Frequently asked questions</h2>
+            <p>Answers to most common questions.</p>
           </div>
-          <div class="single-offer">
-            <i class="fa-solid fa-display"></i>
-            <h3>Unlimited devices</h3>
-            <p>Our products are fully responsive with all screens.</p>
+          <div class="questions">
+            <div class="single-question">
+              <h4>Can I try it for free?</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero,
+                eos necessitatibus alias illum obcaecati nostrum.
+              </p>
+            </div>
+            <div class="single-question">
+              <h4>Do you have hidden fees?</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero,
+                eos necessitatibus alias illum obcaecati nostrum.
+              </p>
+            </div>
+            <div class="single-question">
+              <h4>What are the payment methods you accept?</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero,
+                eos necessitatibus alias illum obcaecati nostrum.
+              </p>
+            </div>
+            <div class="single-question">
+              <h4>How often do you release updates?</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero,
+                eos necessitatibus alias illum obcaecati nostrum.
+              </p>
+            </div>
+            <div class="single-question">
+              <h4>What is your refund policy?</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero,
+                eos necessitatibus alias illum obcaecati nostrum.
+              </p>
+            </div>
+            <div class="single-question">
+              <h4>How can I contact you?</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero,
+                eos necessitatibus alias illum obcaecati nostrum.
+              </p>
+            </div>
           </div>
-          <div class="single-offer">
-            <i class="fa-solid fa-table-list"></i>
-            <h3>Beautiful templates & layouts</h3>
-            <p>UI/UX principles are considered when creating our products.</p>
-          </div>
-          <div class="single-offer">
-            <i class="fa-solid fa-globe"></i>
-            <h3>Available globally</h3>
-            <p>Reach your customers all over the world right now.</p>
+          <div class="faq-footer">
+            <h3>Have a question?</h3>
+            <button class="main-btn">Contact us</button>
           </div>
         </div>
-        <div class="offer-carousel">
-          <div class="carousel-content">
-            <h3>Adventure is more than just a page builder.</h3>
-            <p>Share with us your success to improve our world.</p>
-            <button class="main-btn">Share Now</button>
-          </div>
+      </section>
 
-          <div class="carousel-img-box">
-            <div class="dots">
-              <span data-active></span>
-              <span></span>
-              <span></span>
+      <!-- == End FAQ == -->
+
+      <!-- == Start Blog == -->
+
+      <section class="blog">
+        <div class="container">
+          <div class="sec-head">
+            <h2>News from Adventure.</h2>
+            <p>What's new at Adventure.</p>
+          </div>
+          <div class="blog-box">
+            <div class="news-card">
+              <div class="img-box">
+                <img src="images/blog-1.jpg" alt="image one" />
+              </div>
+              <h2>We launch new iOS & Android mobile apps</h2>
+              <span>Sep 27, 2018</span>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Repellat doloremque laudantium commodi hic odio eveniet?
+                <span style="color: var(--primary)">Learn more</span>
+              </p>
             </div>
-            <div class="carousel-img" data-active>
-              <img src="images/blog-1.jpg" alt="carousel image one" />
+            <div class="news-card">
+              <div class="img-box">
+                <img src="images/blog-2.jpg" alt="image two" />
+              </div>
+              <h2>We launch new iOS & Android mobile apps</h2>
+              <span>Sep 27, 2018</span>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Repellat doloremque laudantium commodi hic odio eveniet?
+                <span style="color: var(--primary)">Learn more</span>
+              </p>
             </div>
-            <div class="carousel-img">
-              <img src="images/blog-2.jpg" alt="carousel image two" />
-            </div>
-            <div class="carousel-img">
-              <img src="images/blog-3.jpg" alt="carousel image three" />
+            <div class="news-card">
+              <div class="img-box">
+                <img src="images/blog-3.jpg" alt="image three" />
+              </div>
+              <h2>We launch new iOS & Android mobile apps</h2>
+              <span>Sep 27, 2018</span>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Repellat doloremque laudantium commodi hic odio eveniet?
+                <span style="color: var(--primary)">Learn more</span>
+              </p>
             </div>
           </div>
+          <button class="main-btn">View All Posts</button>
+        </div>
+      </section>
+
+      <!-- == End Blog == -->
+
+      <!-- == Start Footer == -->
+
+      <footer>
+        <div class="container">
+          <div class="footer-company">
+            <h3>About Adventure</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam
+              cupiditate animi quo tempora maxime? Officiis.
+            </p>
+            <ul class="social-links">
+              <li>
+                <i class="fa-brands fa-facebook-f"></i>
+              </li>
+              <li>
+                <i class="fa-brands fa-twitter"></i>
+              </li>
+              <li>
+                <i class="fa-brands fa-linkedin-in"></i>
+              </li>
+              <li>
+                <i class="fa-brands fa-instagram"></i>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-links">
+            <div class="legal">
+              <h4>Legal</h4>
+              <ul class="internal-links">
+                <li>
+                  <a href="#">Privacy</a>
+                </li>
+                <li>
+                  <a href="#">Terms</a>
+                </li>
+                <li>
+                  <a href="#">Refund Policy</a>
+                </li>
+              </ul>
+            </div>
+            <div class="partner">
+              <h4>Partner</h4>
+              <ul class="internal-links">
+                <li>
+                  <a href="#">Refer a friend</a>
+                </li>
+                <li>
+                  <a href="#">Affiliates</a>
+                </li>
+              </ul>
+            </div>
+            <div class="help">
+              <h4>Help</h4>
+              <ul class="internal-links">
+                <li>
+                  <a href="#">Support</a>
+                </li>
+                <li>
+                  <a href="#">Login</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <div
+        class="copy-rights"
+        style="text-align: center; padding: 7px; background-color: #2e5563ab"
+      >
+        &copy; <span class="copy-year">2022</span> Adventure - All Rights
+        Reserved
+      </div>
+
+      <!-- == End Footer == -->
+
+      <!-- == Start Color Switcher == -->
+      <section class="color-switcher">
+        <div class="colors-sec">
+          <h3>Pick Yours</h3>
+          <div class="colors">
+            <div
+              class="single-color"
+              data-color="#1de9b6"
+              style="background-color: #1de9b6"
+            ></div>
+            <div
+              class="single-color"
+              data-color="#3d5afe"
+              style="background-color: #3d5afe"
+            ></div>
+            <div
+              class="single-color"
+              data-color="#ffea00"
+              style="background-color: #ffea00"
+            ></div>
+          </div>
+        </div>
+        <div class="gear">
+          <i class="fa-solid fa-gear"></i>
+        </div>
+      </section>
+      <!-- == End Color Switcher == -->
+
+      <!-- == Start Theme Mode == -->
+      <div class="theme-mode">
+        <div class="inner-theme-card">
+          <span class="dark"> <i class="fa-solid fa-moon"></i></span>
+          <span class="light"> <i class="fa-solid fa-sun"></i> </span>
         </div>
       </div>
-    </section>
+      <!-- == End Theme Mode == -->
 
-    <!-- == End Offer == -->
-
-    <!-- == Start Plans -->
-
-    <section class="plans">
-      <div class="container">
-        <div class="sec-head">
-          <h2>Choose your pricing plan.</h2>
-          <p>Simply pricing - 7 Days free trial</p>
-        </div>
-        <div class="sec-plans">
-          <div class="single-plan">
-            <h3>Personal</h3>
-            <p>$59</p>
-            <span>per month</span>
-            <ul>
-              <li>1 user</li>
-              <li>10 websites</li>
-              <li>Access to premium template</li>
-              <li>Basic support</li>
-            </ul>
-            <button class="main-btn">Start Free Trial</button>
-          </div>
-          <div class="single-plan set-opacity">
-            <h3>Agency</h3>
-            <p>$159</p>
-            <span>per month</span>
-            <ul>
-              <li>2-15 users</li>
-              <li>50 websites</li>
-              <li>Access to premium template</li>
-              <li>Priority support</li>
-            </ul>
-            <button class="main-btn">Start Free Trial</button>
-          </div>
-          <div class="single-plan">
-            <h3>Enterprise</h3>
-            <p>$559</p>
-            <span>per month</span>
-            <ul>
-              <li>Unlimited users</li>
-              <li>Unlimited websites</li>
-              <li>Access to premium template</li>
-              <li>24/7 support</li>
-            </ul>
-            <button class="main-btn">Start Free Trial</button>
-          </div>
-        </div>
-        <div class="sec-plan-desc">
-          <div class="desc-content">
-            <h4>Everything is covered</h4>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus,
-              quia. Fugiat, deleniti? Eligendi, labore!
-            </p>
-          </div>
-          <div class="desc-list">
-            <ul class="first-list">
-              <li>Weekly new templates</li>
-              <li>MailChimp integration</li>
-              <li>100 refund guarantee</li>
-              <li>Free unlimited support</li>
-            </ul>
-            <ul class="second-list">
-              <li>Access to new features</li>
-              <li>Stripe integration</li>
-              <li>Advance SEO tools</li>
-            </ul>
-          </div>
-        </div>
-        <hr />
-        <div class="try-plan">
-          <div class="try-head">
-            <h2>Try Adventure free for 7 days</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Vestibulum in nisi commodo, tempus odio a, vestibulum nibh.
-            </p>
-          </div>
-          <button class="main-btn">CREATE YOUR ACCOUNT</button>
-        </div>
+      <!-- == Start Up arrow == -->
+      <div class="arrow-up">
+        <i class="fa-solid fa-angle-up"></i>
       </div>
-    </section>
-
-    <!-- == End Plans -->
-
-    <!-- == Start FAQ == -->
-
-    <section class="faq">
-      <div class="container">
-        <div class="sec-head">
-          <h2>Frequently asked questions</h2>
-          <p>Answers to most common questions.</p>
-        </div>
-        <div class="questions">
-          <div class="single-question">
-            <h4>Can I try it for free?</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero,
-              eos necessitatibus alias illum obcaecati nostrum.
-            </p>
-          </div>
-          <div class="single-question">
-            <h4>Do you have hidden fees?</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero,
-              eos necessitatibus alias illum obcaecati nostrum.
-            </p>
-          </div>
-          <div class="single-question">
-            <h4>What are the payment methods you accept?</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero,
-              eos necessitatibus alias illum obcaecati nostrum.
-            </p>
-          </div>
-          <div class="single-question">
-            <h4>How often do you release updates?</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero,
-              eos necessitatibus alias illum obcaecati nostrum.
-            </p>
-          </div>
-          <div class="single-question">
-            <h4>What is your refund policy?</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero,
-              eos necessitatibus alias illum obcaecati nostrum.
-            </p>
-          </div>
-          <div class="single-question">
-            <h4>How can I contact you?</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero,
-              eos necessitatibus alias illum obcaecati nostrum.
-            </p>
-          </div>
-        </div>
-        <div class="faq-footer">
-          <h3>Have a question?</h3>
-          <button class="main-btn">Contact us</button>
-        </div>
-      </div>
-    </section>
-
-    <!-- == End FAQ == -->
-
-    <!-- == Start Blog == -->
-
-    <section class="blog">
-      <div class="container">
-        <div class="sec-head">
-          <h2>News from Adventure.</h2>
-          <p>What's new at Adventure.</p>
-        </div>
-        <div class="blog-box">
-          <div class="news-card">
-            <div class="img-box">
-              <img src="images/blog-1.jpg" alt="image one" />
-            </div>
-            <h2>We launch new iOS & Android mobile apps</h2>
-            <span>Sep 27, 2018</span>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat
-              doloremque laudantium commodi hic odio eveniet?
-              <span style="color: var(--primary)">Learn more</span>
-            </p>
-          </div>
-          <div class="news-card">
-            <div class="img-box">
-              <img src="images/blog-2.jpg" alt="image two" />
-            </div>
-            <h2>We launch new iOS & Android mobile apps</h2>
-            <span>Sep 27, 2018</span>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat
-              doloremque laudantium commodi hic odio eveniet?
-              <span style="color: var(--primary)">Learn more</span>
-            </p>
-          </div>
-          <div class="news-card">
-            <div class="img-box">
-              <img src="images/blog-3.jpg" alt="image three" />
-            </div>
-            <h2>We launch new iOS & Android mobile apps</h2>
-            <span>Sep 27, 2018</span>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat
-              doloremque laudantium commodi hic odio eveniet?
-              <span style="color: var(--primary)">Learn more</span>
-            </p>
-          </div>
-        </div>
-        <button class="main-btn">View All Posts</button>
-      </div>
-    </section>
-
-    <!-- == End Blog == -->
-
-    <!-- == Start Footer == -->
-
-    <footer>
-      <div class="container">
-        <div class="footer-company">
-          <h3>About Adventure</h3>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam
-            cupiditate animi quo tempora maxime? Officiis.
-          </p>
-          <ul class="social-links">
-            <li>
-              <i class="fa-brands fa-facebook-f"></i>
-            </li>
-            <li>
-              <i class="fa-brands fa-twitter"></i>
-            </li>
-            <li>
-              <i class="fa-brands fa-linkedin-in"></i>
-            </li>
-            <li>
-              <i class="fa-brands fa-instagram"></i>
-            </li>
-          </ul>
-        </div>
-        <div class="footer-links">
-          <div class="legal">
-            <h4>Legal</h4>
-            <ul class="internal-links">
-              <li>
-                <a href="#">Privacy</a>
-              </li>
-              <li>
-                <a href="#">Terms</a>
-              </li>
-              <li>
-                <a href="#">Refund Policy</a>
-              </li>
-            </ul>
-          </div>
-          <div class="partner">
-            <h4>Partner</h4>
-            <ul class="internal-links">
-              <li>
-                <a href="#">Refer a friend</a>
-              </li>
-              <li>
-                <a href="#">Affiliates</a>
-              </li>
-            </ul>
-          </div>
-          <div class="help">
-            <h4>Help</h4>
-            <ul class="internal-links">
-              <li>
-                <a href="#">Support</a>
-              </li>
-              <li>
-                <a href="#">Login</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </footer>
-    <div
-      class="copy-rights"
-      style="text-align: center; padding: 7px; background-color: #2e5563ab"
-    >
-      &copy; <span class="copy-year">2022</span> Adventure - All Rights Reserved
+      <!-- == End Up arrow == -->
     </div>
-
-    <!-- == End Footer == -->
-
-    <!-- == Start Color Switcher == -->
-    <section class="color-switcher">
-      <div class="colors-sec">
-        <h3>Pick Yours</h3>
-        <div class="colors">
-          <div
-            class="single-color"
-            data-color="#1de9b6"
-            style="background-color: #1de9b6"
-          ></div>
-          <div
-            class="single-color"
-            data-color="#3d5afe"
-            style="background-color: #3d5afe"
-          ></div>
-          <div
-            class="single-color"
-            data-color="#ffea00"
-            style="background-color: #ffea00"
-          ></div>
-        </div>
-      </div>
-      <div class="gear">
-        <i class="fa-solid fa-gear"></i>
-      </div>
-    </section>
-    <!-- == End Color Switcher == -->
-
-    <!-- == Start Theme Mode == -->
-    <div class="theme-mode">
-      <div class="inner-theme-card">
-        <span class="dark"> <i class="fa-solid fa-moon"></i></span>
-        <span class="light"> <i class="fa-solid fa-sun"></i> </span>
-      </div>
-    </div>
-    <!-- == End Theme Mode == -->
-
-    <!-- == Start Up arrow == -->
-    <div class="arrow-up">
-      <i class="fa-solid fa-angle-up"></i>
-    </div>
-    <!-- == End Up arrow == -->
   </body>
 </html>

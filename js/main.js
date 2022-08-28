@@ -6,6 +6,7 @@ import { changeMode } from "/js/methods/themeMode.js";
 import { toggleCarousel } from "/js/methods/shareCarousel.js";
 import { setOpacityPlans } from "/js/methods/plans.js";
 import { getPageUp } from "/js/methods/arrowUp.js";
+import { handleLoading } from "/js/methods/loading.js";
 
 // implement fuctions
 isToggled();
@@ -16,3 +17,4 @@ changeMode();
 toggleCarousel();
 setOpacityPlans();
 getPageUp();
+handleLoading();
